@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>iconLivechat</name>
+   <tag></tag>
+   <elementGuidId>4b34b7d0-a3a7-4fe2-91cf-9d20f8d645f9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@aria-label='Open live chat']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#katalon-rec_elementInfoDiv</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>c7ba5ad9-e2d0-4f96-8a20-c3c84e94071c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>katalon-rec_elementInfoDiv</value>
+      <webElementGuid>49cc0195-c9c1-42fe-9167-5518b350ed7c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>id(&quot;katalon-rec_elementInfoDiv&quot;)</value>
+      <webElementGuid>eacfe4bf-f5aa-4b2b-9935-4e2a47e5f168</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;katalon-rec_elementInfoDiv&quot;)</value>
+      <webElementGuid>569b2dcd-640f-4c06-862b-77f30cee4c9e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Page_Phptravels/iframe/iframe_livechat</value>
+      <webElementGuid>77c10ab5-35f8-42de-8281-40a58480dff2</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,49 @@
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://phptravels.com/demo')
+
+WebUI.setText(findTestObject('Object Repository/Page_Phptravels_Demo/input_Instant Demo_first_name'), 'first name')
+
+WebUI.setText(findTestObject('Object Repository/Page_Phptravels_Demo/input_Instant Demo_last_name'), 'last name')
+
+WebUI.setText(findTestObject('Object Repository/Page_Phptravels_Demo/input_Instant Demo_business_name'), 'testauto')
+
+WebUI.setText(findTestObject('Object Repository/Page_Phptravels_Demo/input_Instant Demo_email'), 'testauto@yopmail.com')
+
+int numb1 = Integer.parseInt(WebUI.getText(findTestObject('Page_Phptravels_Demo/span_1')))
+
+int numb2 = Integer.parseInt(WebUI.getText(findTestObject('Page_Phptravels_Demo/span_2')))
+
+int number = numb1 + numb2
+println(number)
+println(number)
+String sumnumber = Integer.toString(number)
+
+WebUI.setText(findTestObject('Object Repository/Page_Phptravels_Demo/input__number'), sumnumber)
+
+WebUI.click(findTestObject('Object Repository/Page_Phptravels_Demo/button_Submit'))
+
+TestObject text_thankyou = findTestObject('Object Repository/Page_Phptravels_Demo/text_Thank you')
+WebUI.verifyElementText(text_thankyou , "Thank you!")
+
+WebUI.closeBrowser()
+

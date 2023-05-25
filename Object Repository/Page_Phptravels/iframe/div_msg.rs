@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_msg</name>
+   <tag></tag>
+   <elementGuidId>ca8f4a23-cee6-452f-955f-8b8c945e91c1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.PrimaryMessage__PrimaryMessageWrapper-sc-1ephcqh-0.fvphnE</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='current-view-component']/div/div/div/div/div/div/section/div/div[2]//div[@data-test-id='primary-message-content']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>a2957660-b08f-4ba3-a259-1ce457069ae8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test-use</name>
+      <type>Main</type>
+      <value>visitor</value>
+      <webElementGuid>87c6e790-bd17-4100-b214-1603123c5968</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>PrimaryMessage__PrimaryMessageWrapper-sc-1ephcqh-0 fvphnE</value>
+      <webElementGuid>bc1174fb-79cb-4ede-811b-04787690088f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>assssss09:58 AM</value>
+      <webElementGuid>25d39e3e-7679-4d0c-a8f2-dff0c7e4f6cc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;current-view-component&quot;)/div[@class=&quot;VisitorWidgetStyleWrapper__WidgetStyleWrapper-i1v899-0 dthVbR&quot;]/div[@class=&quot;VisitorWidgetStyleWrapper__WidgetContentStyleWrapper-i1v899-1 iEBnFy chat-widget&quot;]/div[@class=&quot;VisitorWidget__WidgetBodyDiv-pzm4ao-0 gWibnB&quot;]/div[@class=&quot;UnifiedThreadViewWrapperWithDragUpload__UnifiedThreadViewWrapper-s4ctvh-0 ftjQdo&quot;]/div[@class=&quot;ThreadHistoryFetcher__ScrollToWrapper-mpap2q-1 kYFmaz messages-scroll-container-utv&quot;]/div[1]/section[1]/div[@class=&quot;MessageHistory__ReflowElement-sc-1d68wr3-0 bLtwIV&quot;]/div[2]/div[@class=&quot;PrimaryMessage__SpacingWrapper-sc-1ephcqh-1 hsdJBE&quot;]/div[@class=&quot;PrimaryMessage__PrimaryMessageWrapper-sc-1ephcqh-0 fvphnE&quot;]</value>
+      <webElementGuid>5e1c5f7b-b337-43ae-9bb4-ff361d7053e4</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
